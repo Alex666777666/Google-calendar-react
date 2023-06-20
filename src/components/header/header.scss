@@ -1,0 +1,52 @@
+.header {
+  display: flex;
+  height: 60px;
+  padding: 0 48px;
+  align-items: center;
+  position: relative;
+}
+
+button.create-event-btn {
+  padding: 0 16px;
+  border: none;
+  width: 140px;
+  border-radius: 80px;
+  box-shadow: 0 5px 4px rgba(0, 0, 0, 0.1);
+  background-image: url(https://assets.materialup.com/uploads/d738e17a-8669-4ff1-ab3a-7c8d63e8ed51/preview.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: left 5px center;
+}
+
+.create-event-btn__icon {
+  margin-right: 8px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+}
+
+.navigation {
+  &__today-btn {
+    margin-left: 32px;
+    padding: 0 16px;
+  }
+
+  &__nav-icon {
+    font-size: 16px;
+    margin-left: 20px;
+  }
+
+  &__displayed-month {
+    margin-left: 10px;
+    font-size: 25px;
+  }
+}
+
+.header-underline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 1px;
+  background-color: #ccc;
+}
